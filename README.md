@@ -1,6 +1,6 @@
-<h1 align="center"> COMPARAÇÃO DE DESEMPENHO NA CLASSIFICAÇÃO DE BIOSINAIS COM DEEP LEARNING: UMA ABORDAGEM UTILIZANDO A TRANSFORMADA DE WAVELET COMO PRÉ-PROCESSAMENTO DE DADOS </h1>
+<h1 align="center"> Comparação de Desempenho na Classificação de Biosinais com Deep Leraning: Uma Abordagem Utilizando a Transformada de Wavelet como Pré-processamento de Dados </h1>
 
-Sinais biológicos ou biosinais, são sinais provenientes das atividades existentes dentro de um ser vivo. A analise desses sinais permite entender melhor o funcionamento de diversos parâmetros. Nesse sentido, esse trabalho visa realizar a classificação de biosinais provenientes de seis gestos de mão que são utilizados em processos de reabilitação motora.
+Sinais biológicos ou biosinais, são sinais provenientes das atividades existentes dentro de um ser vivo. A analise desses sinais permite entender melhor o funcionamento de diversos parâmetros. Nesse sentido, esse trabalho visa realizar a classificação de biosinais provenientes de seis gestos de mão que são utilizados em processos de reabilitação motora fazendo um comparativo de desempenho com a utilização da Transformada de Wavelet como técnica de pré-processamento de dados.
 
 ![grasps_en](https://user-images.githubusercontent.com/76635621/182120286-b042691d-41a7-46e7-a4e4-ab10f56e0023.PNG)
 
@@ -13,11 +13,9 @@ Sinais biológicos ou biosinais, são sinais provenientes das atividades existen
 
 ## :small_blue_diamond: Códigos
 
-- `CNN`: Testes utilizando CNN.
+- `With_Wavelet_Transform`: Testes utilizando a Transformada de Wavelet.
 
-- `Ensemble`: Testes utilizando o ensemble das redes CNN e LSTM.
-
-- `LSTM`: Testes utilizando LSTM.
+- `Without_Wavelet_Transform`: Testes sem a utilização da Transformada de Wavelet.
 
 - `Criação_DF_Movimentos_e_MatrizX.ipynb`: Como os arquivos da base de dados foram separados por movimento e por pessoa, foi necessário juntar eles formando arquivos .csv para cada movimento e um arquivo para juntar todos os movimentos.
 
@@ -31,8 +29,6 @@ Os sinais presentes na base de dados são frutos de um teste realizado com cinco
 Por uma questão de praticidade, foi utilizado o MATLAB para exportar a base da dados em arquivos .csv.
 
 - `sEMG_Basic_Hand_Movements_Database_1`: Arquivos originais em .m.
-
-- `sEMG_Basic_Hand_Movements_Database_2`: Arquivos originais em .m.
 
 - `sEMG_Basic_Hand_movements_upatras_csv_files`: Arquivos exportados em .csv.
 
