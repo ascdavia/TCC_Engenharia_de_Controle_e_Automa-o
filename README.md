@@ -1,4 +1,4 @@
-<h1 align="center"> Comparação de Desempenho na Classificação de Biosinais com Deep Leraning: Uma Abordagem Utilizando a Transformada de Wavelet como Pré-processamento de Dados </h1>
+<h1 align="center"> Comparação de Desempenho na Classificação de Sinais Mioelétricos com Deep Leraning: Uma Abordagem Utilizando a Transformada de Wavelet como Pré-processamento de Dados </h1>
 
 Sinais biológicos ou biosinais, são sinais provenientes das atividades existentes dentro de um ser vivo. A analise desses sinais permite entender melhor o funcionamento de diversos parâmetros. Nesse sentido, esse trabalho visa realizar a classificação de biosinais provenientes de seis gestos de mão que são utilizados em processos de reabilitação motora fazendo um comparativo de desempenho com a utilização da Transformada de Wavelet como técnica de pré-processamento de dados.
 
